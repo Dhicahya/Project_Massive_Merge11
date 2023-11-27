@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="teal_200">#0AA3A3</color>
+    <color name="teal_50">#E4FBFB</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="bottom_nav_background">#0AA3A3</color>
+    <color name="bottom_nav_item">#E4FBFB</color>
+    <color name="bottom_nav_selected_item">#0E3939</color>
+    <color name="fragment_bg_color">#DAEBEB</color>
 </resources>

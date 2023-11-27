@@ -3,6 +3,7 @@
     <style name="Base.Theme.Massive_Mobile_Merge11" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/bottom_nav_selected_item </item>
     </style>
 
     <style name="Theme.Massive_Mobile_Merge11" parent="Base.Theme.Massive_Mobile_Merge11" />
