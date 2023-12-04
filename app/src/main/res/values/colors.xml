@@ -4,9 +4,14 @@
     <color name="teal_50">#E4FBFB</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="grey">#CFCFCF</color>
+    <color name="yellow">#F1C644</color>
+    <color name="green">#0BBC5C</color>
 
     <color name="bottom_nav_background">#0AA3A3</color>
     <color name="bottom_nav_item">#E4FBFB</color>
     <color name="bottom_nav_selected_item">#0E3939</color>
     <color name="fragment_bg_color">#DAEBEB</color>
+    <color name="button_bg">#F1C644</color>
+
 </resources>

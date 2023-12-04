@@ -13,6 +13,21 @@
         android:theme="@style/Theme.Massive_Mobile_Merge11"
         tools:targetApi="34">
         <activity
+            android:name=".KamarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JadwalDokterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ReservasiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TestimoniActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditProfilActivity"
+            android:exported="false" />
+        <activity
             android:name=".SplashScreenActivity"
             android:exported="true">
             <intent-filter>
