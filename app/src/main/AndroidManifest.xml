@@ -13,6 +13,24 @@
         android:theme="@style/Theme.Massive_Mobile_Merge11"
         tools:targetApi="34">
         <activity
+            android:name=".RegistrasiActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".RegistrasiActivity"
+            android:exported="false" />
+        <activity
+            android:name="Login.Register1Activity"
+            android:exported="false" />
+        <activity
+            android:name="Login.LoginActivity3"
+            android:exported="false" />
+        <activity
+            android:name="Login.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="Login.LoginActivity1"
+            android:exported="false" />
+        <activity
             android:name=".KamarActivity"
             android:exported="false" />
         <activity
