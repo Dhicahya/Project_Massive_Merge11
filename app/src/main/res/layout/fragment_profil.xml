@@ -51,7 +51,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="32dp"
-                    android:text="PROFIL"
+                    android:text="@string/profil"
                     android:textStyle="bold"
                     android:textColor="#F5F5F5"
                     android:textSize="14sp"
@@ -61,7 +61,7 @@
 
 
                 <androidx.appcompat.widget.AppCompatButton
-                    android:id="@+id/btn_edit"
+                    android:id="@+id/btnEdit"
                     style="@android:style/Widget.Button"
                     android:layout_width="0dp"
                     android:layout_height="32dp"
@@ -69,7 +69,7 @@
                     android:layout_marginTop="16dp"
                     android:layout_marginEnd="152dp"
                     android:background="@drawable/button_background"
-                    android:text="Edit Profil"
+                    android:text="@string/edit_profil"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageView3"
@@ -83,12 +83,12 @@
                     android:layout_marginTop="48dp"
                     android:layout_marginEnd="256dp"
                     android:fontFamily="sans-serif"
-                    android:text="Username"
+                    android:text="@string/username"
                     android:textColor="#173E3E"
                     android:textStyle="bold"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/btn_edit" />
+                    app:layout_constraintTop_toBottomOf="@+id/btnEdit" />
 
                 <EditText
                     android:id="@+id/editText"

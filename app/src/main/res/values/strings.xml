@@ -5,4 +5,7 @@
     <string name="topbg">topbg</string>
     <string name="ini_home">Ini Home</string>
     <string name="unggah_komentar">Unggah Komentar</string>
+    <string name="profil">PROFIL</string>
+    <string name="edit_profil">Edit Profil</string>
+    <string name="username">Username</string>
 </resources>
