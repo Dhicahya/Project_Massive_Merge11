@@ -112,7 +112,7 @@
                 android:layout_height="match_parent">
 
                 <ImageButton
-                    android:id="@+id/imageButton2"
+                    android:id="@+id/btnReservasi"
                     android:layout_width="64dp"
                     android:layout_height="64dp"
                     android:layout_marginTop="32dp"
@@ -133,17 +133,17 @@
                     android:textSize="8dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+                    app:layout_constraintTop_toBottomOf="@+id/btnReservasi"
                     tools:ignore="TextSizeCheck" />
 
                 <ImageButton
-                    android:id="@+id/imageButton3"
+                    android:id="@+id/btnKamar"
                     android:layout_width="64dp"
                     android:layout_height="64dp"
                     android:layout_marginTop="32dp"
                     android:background="@drawable/box_home"
                     android:src="@drawable/baseline_kamar"
-                    app:layout_constraintEnd_toStartOf="@+id/imageButton2"
+                    app:layout_constraintEnd_toStartOf="@+id/btnReservasi"
                     app:layout_constraintHorizontal_bias="0.498"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
@@ -158,12 +158,12 @@
                     android:textSize="8dp"
                     app:layout_constraintEnd_toStartOf="@+id/textView12"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imageButton3"
+                    app:layout_constraintTop_toBottomOf="@+id/btnKamar"
                     tools:ignore="TextSizeCheck" />
 
 
                 <ImageButton
-                    android:id="@+id/imageButton4"
+                    android:id="@+id/btnJadwal"
                     android:layout_width="64dp"
                     android:layout_height="64dp"
                     android:layout_marginTop="32dp"
@@ -171,7 +171,7 @@
                     android:src="@drawable/baseline_jadwal"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.498"
-                    app:layout_constraintStart_toEndOf="@+id/imageButton2"
+                    app:layout_constraintStart_toEndOf="@+id/btnReservasi"
                     app:layout_constraintTop_toTopOf="parent"
                     tools:ignore="SpeakableTextPresentCheck" />
 
@@ -185,7 +185,7 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.505"
                     app:layout_constraintStart_toEndOf="@+id/textView12"
-                    app:layout_constraintTop_toBottomOf="@+id/imageButton4"
+                    app:layout_constraintTop_toBottomOf="@+id/btnJadwal"
                     tools:ignore="TextSizeCheck" />
 
                 <TextView
