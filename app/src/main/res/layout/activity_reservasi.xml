@@ -62,7 +62,7 @@
                 android:layout_height="552dp">
 
                 <ImageButton
-                    android:id="@+id/imageButton2"
+                    android:id="@+id/btnPemUmum"
                     android:layout_width="96dp"
                     android:layout_height="96dp"
                     android:layout_marginStart="64dp"
@@ -82,11 +82,11 @@
                     android:textAlignment="center"
                     android:textSize="12sp"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+                    app:layout_constraintTop_toBottomOf="@+id/btnPemUmum"
                     tools:ignore="TextSizeCheck" />
 
                 <ImageButton
-                    android:id="@+id/imageButton3"
+                    android:id="@+id/btnImunisasi"
                     android:layout_width="96dp"
                     android:layout_height="96dp"
                     android:layout_marginTop="32dp"
@@ -106,11 +106,11 @@
                     android:textAlignment="center"
                     android:textSize="12sp"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imageButton3"
+                    app:layout_constraintTop_toBottomOf="@+id/btnImunisasi"
                     tools:ignore="TextSizeCheck" />
 
                 <ImageButton
-                    android:id="@+id/imageButton4"
+                    android:id="@+id/btnPoliAnak"
                     android:layout_width="96dp"
                     android:layout_height="96dp"
                     android:layout_marginStart="64dp"
@@ -130,11 +130,11 @@
                     android:textAlignment="center"
                     android:textSize="12sp"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imageButton4"
+                    app:layout_constraintTop_toBottomOf="@+id/btnPoliAnak"
                     tools:ignore="TextSizeCheck" />
 
                 <ImageButton
-                    android:id="@+id/imageButton5"
+                    android:id="@+id/btnPosyandu"
                     android:layout_width="96dp"
                     android:layout_height="96dp"
                     android:layout_marginTop="16dp"
@@ -154,11 +154,11 @@
                     android:textAlignment="center"
                     android:textSize="12sp"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imageButton5"
+                    app:layout_constraintTop_toBottomOf="@+id/btnPosyandu"
                     tools:ignore="TextSizeCheck" />
 
                 <ImageButton
-                    android:id="@+id/imageButton6"
+                    android:id="@+id/btnPoliGigi"
                     android:layout_width="96dp"
                     android:layout_height="96dp"
                     android:layout_marginStart="64dp"
@@ -178,11 +178,11 @@
                     android:textAlignment="center"
                     android:textSize="12sp"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imageButton6"
+                    app:layout_constraintTop_toBottomOf="@+id/btnPoliGigi"
                     tools:ignore="TextSizeCheck" />
 
                 <ImageButton
-                    android:id="@+id/imageButton7"
+                    android:id="@+id/btnVaksin"
                     android:layout_width="96dp"
                     android:layout_height="96dp"
                     android:layout_marginTop="16dp"
@@ -202,7 +202,7 @@
                     android:textAlignment="center"
                     android:textSize="12sp"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imageButton7"
+                    app:layout_constraintTop_toBottomOf="@+id/btnVaksin"
                     tools:ignore="TextSizeCheck" />
 
 

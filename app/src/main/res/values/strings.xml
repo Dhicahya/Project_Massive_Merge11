@@ -8,4 +8,7 @@
     <string name="profil">PROFIL</string>
     <string name="edit_profil">Edit Profil</string>
     <string name="username">Username</string>
+    <string name="nama_pasien">Nama Pasien</string>
+    <string name="nik">NIK</string>
+    <string name="jenis_pasien">Jenis Pasien</string>
 </resources>

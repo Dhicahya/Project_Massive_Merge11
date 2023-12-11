@@ -48,6 +48,9 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+    implementation(platform("com.google.firebase:firebase-bom:32.3.1"))
+    implementation("com.google.firebase:firebase-analytics-ktx")
+
 
     val nav_version = "2.5.3"
     // Kotlin
@@ -56,6 +59,9 @@ dependencies {
 
     implementation ("com.github.bumptech.glide:glide:4.16.0")
     implementation ("androidx.recyclerview:recyclerview:1.3.0")
+    implementation("androidx.recyclerview:recyclerview-selection:1.1.0")
+    implementation ("androidx.cardview:cardview:1.0.0")
+
 
 
 

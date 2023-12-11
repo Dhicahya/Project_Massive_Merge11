@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_gravity="top"
     android:background="@color/fragment_bg_color"
-    tools:context=".ProfilFragment"
-    tools:ignore="MissingDefaultResource">
-
-    <!-- TODO: Update blank fragment layout -->
+    tools:context=".FormulirPasienActivity">
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:contentDescription="@string/hello_blank_fragment">
+        android:layout_height="match_parent" >
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -23,83 +18,74 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="813dp">
-
-
-                <ImageView
-                    android:id="@+id/imageView"
-                    android:layout_width="match_parent"
-                    android:layout_height="155dp"
-                    android:src="@drawable/profilefragment_bg"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    tools:ignore="ImageContrastCheck,MissingConstraints" />
+                android:layout_height="match_parent">
 
                 <ImageView
-                    android:id="@+id/imageView3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="128dp"
-                    android:src="@drawable/baseline_profil_photo"
-                    app:layout_constraintBottom_toBottomOf="@+id/textView"
+                    android:id="@+id/imageView16"
+                    android:layout_width="568dp"
+                    android:layout_height="216dp"
+                    android:src="@drawable/topbg_formulir"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imageView" />
+                    app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
-                    android:id="@+id/textView"
+                    android:id="@+id/textView27"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="32dp"
-                    android:text="@string/profil"
-                    android:textColor="#F5F5F5"
-                    android:textSize="14sp"
+                    android:layout_marginBottom="56dp"
+                    android:text="FORMULIR PASIEN"
+                    android:textColor="#000047"
                     android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:text="Isikan Formulir Data Pasien Dibawah Ini"
+                    android:textColor="#000047"
+                    app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="@+id/imageView" />
+                    app:layout_constraintTop_toBottomOf="@+id/textView27" />
 
+            </androidx.constraintlayout.widget.ConstraintLayout>
 
-                <androidx.appcompat.widget.AppCompatButton
-                    android:id="@+id/btnEdit"
-                    style="@android:style/Widget.Button"
-                    android:layout_width="0dp"
-                    android:layout_height="32dp"
-                    android:layout_marginStart="152dp"
-                    android:layout_marginTop="16dp"
-                    android:layout_marginEnd="152dp"
-                    android:background="@drawable/button_background"
-                    android:text="@string/edit_profil"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imageView3"
-                    tools:ignore="TouchTargetSizeCheck" />
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="512dp">
 
                 <TextView
                     android:id="@+id/textView2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="112dp"
+                    android:layout_marginStart="72dp"
                     android:layout_marginTop="48dp"
                     android:layout_marginEnd="256dp"
                     android:fontFamily="sans-serif"
-                    android:text="@string/username"
+                    android:text="@string/nama_pasien"
                     android:textColor="#173E3E"
                     android:textStyle="bold"
                     app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/btnEdit" />
+                    app:layout_constraintTop_toTopOf="parent" />
 
                 <EditText
                     android:id="@+id/editText"
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:layout_marginStart="100dp"
+                    android:layout_width="271dp"
+                    android:layout_height="34dp"
+                    android:layout_marginStart="72dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginEnd="100dp"
-                    android:background="@drawable/edittext_background"
+                    android:background="@drawable/edittext_formulir"
                     android:inputType="textPersonName"
                     app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView2"
                     tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
@@ -108,28 +94,26 @@
                     android:id="@+id/textView3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="90dp"
+                    android:layout_marginStart="72dp"
                     android:layout_marginTop="16dp"
-                    android:layout_marginEnd="256dp"
                     android:fontFamily="sans-serif"
-                    android:text="Nama"
-                    android:textAlignment="textStart"
+                    android:text="@string/nik"
                     android:textColor="#173E3E"
                     android:textStyle="bold"
-                    app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/editText" />
 
                 <EditText
                     android:id="@+id/editText2"
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:layout_marginStart="100dp"
+                    android:layout_width="271dp"
+                    android:layout_height="34dp"
+                    android:layout_marginStart="72dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginEnd="100dp"
-                    android:background="@drawable/edittext_background"
+                    android:background="@drawable/edittext_formulir"
                     android:inputType="textPersonName"
                     app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView3"
                     tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
@@ -138,74 +122,75 @@
                     android:id="@+id/textView4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="90dp"
+                    android:layout_marginStart="72dp"
                     android:layout_marginTop="16dp"
                     android:layout_marginEnd="256dp"
                     android:fontFamily="sans-serif"
-                    android:text="Email"
-                    android:textAlignment="textStart"
+                    android:text="@string/nama_pasien"
                     android:textColor="#173E3E"
                     android:textStyle="bold"
                     app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/editText2" />
 
                 <EditText
                     android:id="@+id/editText3"
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:layout_marginStart="100dp"
-                    android:layout_marginTop="8dp"
+                    android:layout_width="271dp"
+                    android:layout_height="34dp"
+                    android:layout_marginStart="72dp"
                     android:layout_marginEnd="100dp"
-                    android:background="@drawable/edittext_background"
+                    android:background="@drawable/edittext_formulir"
                     android:inputType="textPersonName"
                     app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView4"
-                    tools:ignore="LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
                 <TextView
                     android:id="@+id/textView5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="90dp"
+                    android:layout_marginStart="72dp"
                     android:layout_marginTop="16dp"
                     android:layout_marginEnd="256dp"
                     android:fontFamily="sans-serif"
-                    android:text="Gender"
-                    android:textAlignment="textStart"
+                    android:text="@string/jenis_pasien"
                     android:textColor="#173E3E"
                     android:textStyle="bold"
                     app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/editText3" />
 
-                <EditText
-                    android:id="@+id/editText4"
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:layout_marginStart="100dp"
+                <Spinner
+                    android:id="@+id/spinnerJP"
+                    android:layout_width="271dp"
+                    android:layout_height="34dp"
+                    android:layout_marginStart="72dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginEnd="100dp"
-                    android:background="@drawable/edittext_background"
-                    android:inputType="textPersonName"
+                    android:background="@drawable/edittext_formulir"
                     app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView5"
-                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck,VisualLintTextFieldSize" />
+                    tools:ignore="TouchTargetSizeCheck" />
 
                 <androidx.appcompat.widget.AppCompatButton
-                    android:id="@+id/btnLogout"
+                    android:id="@+id/button3"
                     style="@android:style/Widget.Button"
-                    android:layout_width="96dp"
-                    android:layout_height="33dp"
-                    android:layout_marginTop="32dp"
-                    android:background="@drawable/button_logout_bg"
-                    android:text="Logout"
+                    android:layout_width="190dp"
+                    android:layout_height="36dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/button_reservasi"
+                    android:text="Reservasi"
                     android:textColor="@color/white"
+                    android:textStyle="bold"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/editText4"
+                    app:layout_constraintTop_toBottomOf="@+id/spinnerJP"
                     tools:ignore="TouchTargetSizeCheck" />
 
 
@@ -213,5 +198,4 @@
 
         </LinearLayout>
     </ScrollView>
-
-</FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

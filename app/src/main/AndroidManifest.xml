@@ -13,22 +13,10 @@
         android:theme="@style/Theme.Massive_Mobile_Merge11"
         tools:targetApi="34">
         <activity
-            android:name=".RegistrasiActivity2"
-            android:exported="false" />
-        <activity
             android:name=".RegistrasiActivity"
             android:exported="false" />
         <activity
-            android:name="Login.Register1Activity"
-            android:exported="false" />
-        <activity
-            android:name="Login.LoginActivity3"
-            android:exported="false" />
-        <activity
-            android:name="Login.LoginActivity"
-            android:exported="false" />
-        <activity
-            android:name="Login.LoginActivity1"
+            android:name=".FormulirPasienActivity"
             android:exported="false" />
         <activity
             android:name=".KamarActivity"
@@ -46,6 +34,9 @@
             android:name=".EditProfilActivity"
             android:exported="false" />
         <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
             android:name=".SplashScreenActivity"
             android:exported="true">
             <intent-filter>
@@ -55,7 +46,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
